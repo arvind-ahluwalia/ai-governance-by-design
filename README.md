@@ -20,6 +20,22 @@ The goal is to enable AI autonomy **without losing control**.
 - Trust is earned through **predictable, explainable behavior**
 
 ## Governance capabilities covered
+flowchart LR
+    A[Business Input] --> B[AI Decision Engine]
+    B -->|Decision + Confidence| C{Risk & Policy Check}
+
+    C -->|Low Risk| D[Autonomous Action]
+    C -->|Medium Risk| E[Human Review Required]
+    C -->|High Risk| F[Escalation / Fallback]
+
+    D --> G[Decision Log]
+    E --> G
+    F --> G
+
+    G --> H[Audit & Traceability Layer]
+    H --> I[Monitoring & Evaluation]
+
+
 ### Decision accountability
 - Clear ownership of AI-generated decisions
 - Traceable reasoning paths and inputs
