@@ -1,4 +1,5 @@
-# AI Governance by Design → How AI is controlled
+# AI Governance by Design
+How is the AI controlled?
 
 Enterprise AI systems fail less often due to model quality and more often due to missing
 decision boundaries, accountability, and operational controls.
