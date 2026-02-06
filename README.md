@@ -1,4 +1,4 @@
-# AI Governance by Design
+# AI Governance by Design → Why AI can be trusted
 
 Enterprise AI systems fail less often due to model quality and more often due to missing
 decision boundaries, accountability, and operational controls.
